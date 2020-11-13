@@ -1,0 +1,57 @@
+body, html {
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    color: #000;
+}
+.centered-text {
+    text-align:center
+}
+
+
+#header {
+    margin: 10px 0 15px 0;
+}
+
+#title-page{
+    background: rgba(255, 255, 255, 0.91);
+    margin: auto;
+    width: 50%;
+    padding: 2px 15px 27px 15px;
+    border-radius: 3px;
+}
+
+#title-page > h1 {
+    color: #ff7800;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 2em;
+}
+
+
+.btn{
+    padding: 10px 10px 10px 10px;
+	background: #ff7800;
+	border-radius: 3px;
+	cursor: pointer;
+	border: 1px solid #050552;
+    font-size: 16px;
+}
+.btn:focus{
+	outline: 0;
+}
+
+#twitter-button {
+    float: left;
+}
+#btn {
+    float: right;
+}
+#two-buttons {
+    display: list-item;
+    color: rgba(255, 0, 0, 0);
+}

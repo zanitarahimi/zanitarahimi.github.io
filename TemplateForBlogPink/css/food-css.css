@@ -1,0 +1,23 @@
+img{
+	width: 100%;
+}
+
+.permbajtja{
+	font-size: 20px;
+	font-family: 'Asap', sans-serif;
+}
+
+.colu{
+	text-align: center;
+	background:#cb2f2f1c;
+	width: 80px;
+	padding: 14px 9px 9px 9px;
+	border-radius: 5px;
+	color: #ff0000a8;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.col-md-1 > .colu:last-child {
+	cursor: default;
+}

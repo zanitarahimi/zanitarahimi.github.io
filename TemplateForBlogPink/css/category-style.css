@@ -1,0 +1,36 @@
+
+.kategoria{
+	/*background: white;*/
+	height: 300px;
+	overflow: hidden;
+	color: black;
+}
+
+.imazhi-i-kategorise{
+	width: 100%;
+	opacity: 0.7;
+}
+
+.w3-black-1, .w3-hover-black-1:hover {
+    z-index: 3;
+    color: #fff!important;
+    background-color: #000000d6!important;
+    font-family: 'Asap', sans-serif;
+}
+
+.w3-padding {
+    padding: 10px 19px!important;
+    font-weight: bold;
+}
+
+.w3-display-topleft {
+    position: absolute;
+    left: 107px;
+    top: 134px;
+}
+
+.category-link, .category-link:hover{
+	text-decoration: none;
+	color: white;
+}
+

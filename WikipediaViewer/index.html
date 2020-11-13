@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Wikipedia Viewer</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://use.fontawesome.com/73e05c1933.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div id="header" class="container">
+
+	<div class="search">
+		<div class="icon"></div>
+			<div class="form">
+				<form id="theForm">
+					<input id="searchPh" type="text" name="" placeholder="What are you looking for?">
+				</form>
+				<a href="https://en.wikipedia.org/wiki/Special:Random">
+					<button class="btn">
+						Random article
+					</button>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	
+	<div id="results">
+	</div>
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.icon').click(function(){
+				$('.search').toggleClass('active')
+			})
+		})
+	</script>
+<script src="js/main.js"></script>
+</body>
+</html>

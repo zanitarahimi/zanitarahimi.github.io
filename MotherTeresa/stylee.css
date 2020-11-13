@@ -1,0 +1,93 @@
+h1{
+	text-align : center;
+	font-family: 'Chewy', cursive;
+	font-size: 60px;
+	color:#FFFAFA;
+	padding-top: 5%;
+
+}
+h3{
+	text-align: center;
+	font-family: 'Chewy', cursive;
+	font-size: 40px;
+	color:#FFFAFA;
+	padding-bottom: 3%;
+}
+h2{
+	text-align: left;
+	font-family: arial;
+	font-size: 20px;
+	color: gray;
+	padding-top: 2%;
+	padding-bottom: 1%
+}
+h4{
+	text-align: center;
+	font-family: arial;
+	font-size:20px;
+	color:#708090;
+}
+
+#quote{
+	text-align:inherit;
+	color:black;
+	font-size: 20px; 
+	font-family: 'Indie Flower', cursive;
+	padding-top: 5%;
+	background: url('http://i47.tinypic.com/a9l0g3.png') top left no-repeat; 
+	padding-left: 55px; 
+	line-height: 25px; 
+	color: #575757;
+	overflow: hidden; 
+	border: 1px solid #dde5ed; 
+
+
+
+}
+
+#the_list{
+	text-align:left;
+	font-family: arial;
+	font-size:14px;
+	color:black;
+	padding-bottom: 10%; 
+}
+
+#text{
+	text-align: justify;
+	font-family: arial;
+	font-size:11px;
+	color:#808080;
+	padding-bottom: 10%
+}
+
+
+.bg-img{
+	opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://ichef.bbci.co.uk/images/ic/1920x1080/p02g3j9p.jpg');
+    min-height: 100%;
+    padding: 11%;
+}
+.bg-img{
+	background-attachment: scroll;
+}
+
+.mt-wide {
+	letter-spacing: 10px;
+}
+.mt-hover-opacity {
+	cursor: pointer;
+}
+
+footer{
+    padding: 1em;
+    color: white;
+    background-color: #708090;
+    clear: left;
+    text-align: center;
+}
+

@@ -1,0 +1,26 @@
+.hyrja{
+	padding-top: 28px;
+	text-align: center;
+	color: #fc4f4f;
+	font-family: 'Asap', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.hyrja1{
+	text-align: center;
+	color: #fc4f4f;
+	font-family: 'Asap', sans-serif;
+	font-style: italic;
+	font-size: 18px;
+	margin-top: -20px;
+}
+
+.formulari{
+	width: 400px;
+	border:1px #fc4f4f solid;
+	padding: 10px;
+	margin: 3px 0 3px 10px;
+
+}
+

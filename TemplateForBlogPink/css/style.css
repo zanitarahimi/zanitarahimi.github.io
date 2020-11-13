@@ -1,0 +1,227 @@
+body,html{
+	background: #f4e8ed;
+}
+
+.artikulli{
+	height: 470px;
+	/*background: white;*/
+}
+.imazhi-i-postimit{
+	background: white;
+	/*border:1px red solid;*/
+}
+.imazhi-i-postimit img {
+	width: 100%;
+}
+.teksti-i-postimit{
+	/*height: 160px;*/
+	background: white;
+	 overflow:hidden;
+	/*border:1px red solid;*/
+}
+.footeri-i-postimit{
+	height: 60px;
+	background: white;
+	/*border:1px red solid;*/
+	text-align: left;
+	display: table;
+	table-layout: fixed;
+	border-spacing: 5px;
+}
+h4{
+	padding: 10px;
+	font-family: 'Asap', sans-serif;
+}
+
+.column{
+	cursor: pointer;
+	text-align: center;
+	display: table-cell;
+	background:#cb2f2f1c;
+	width: 83px;
+	padding: 14px 9px 9px 9px;
+	border-radius: 5px;
+	color: #ff0000a8;
+	font-weight: bold;
+}
+.footeri-i-postimit > .column:last-child {
+	cursor: default;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#ff0000a8;
+}
+
+h1{
+	padding-top: 20px;
+	font-family: 'Great Vibes', cursive;
+	letter-spacing: 8px;
+	font-size: 100px;
+	text-align: center;
+	color: black;
+
+}
+h2{
+	font-family: 'Amatic SC', cursive;
+	font-size: 24px;
+	text-align: center;	
+	color: black;
+	margin-top: -22px;
+	margin-bottom: 20px;
+}
+
+
+
+.header{
+	background: white;
+}
+
+.menyja{
+	text-align: center;
+	padding-bottom: 7px;
+}
+.menyja > ul >li{
+	display: inline;
+}
+
+.menyja > ul > li > a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	position: relative;
+	left: -15px;
+	font-family: 'Asap', sans-serif;
+	font-size: 20px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #fc4f4f;
+    color: white;
+}
+
+
+.active {
+    background-color: #fc4f4f;
+    color: white !important;
+}
+
+.active:hover{
+	background-color: #fc4f4f;
+    color: black;
+}
+
+.post-link, .post-link:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 10px #d98d8d;
+  -moz-box-shadow: 3px 3px 10px #d98d8d;
+  box-shadow: 3px 3px 10px #d98d8d;
+  font-family: 'Asap', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 14px;
+  background: #fc4f4f;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #fc4f4f;
+  text-decoration: none;
+}
+
+.butoni{
+	text-align: center;
+	padding-bottom: 30px;
+	margin-top: -30px;
+
+}
+
+.footer{
+	height: 350px;
+	background: white;
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+.col-md-4 > a{
+	text-decoration: none;
+	color: black;
+}
+
+.q {
+	font-size: x-large;
+}
+
+.titujt-ne-footer{
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Asap', sans-serif;
+	color: #fc4f4f;
+}
+
+.link-ne-footer, .link-ne-footer:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.w3-border {
+    border: 1px solid #fc4f4f!important;
+}
+
+.w3-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #fc4f4f;
+    width: 100%;
+}
+
+
+
+.w3-button{
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap
+}
+.w3-block{
+	display:block;
+	width:100%
+}
+.w3-black,.w3-hover-black:hover{
+	color:#fff!important;
+	background-color:#fc4f4f!important;
+	font-family: 'Asap', sans-serif;
+}
+textarea{
+	resize: none;
+}
